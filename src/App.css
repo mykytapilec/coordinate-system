@@ -1,0 +1,38 @@
+.container{
+	background: url(./prog30_2.gif);
+	width: 900px; 
+	height: 510px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.car {
+	position: absolute;
+	width:30px;
+	height:30px;;
+	cursor: pointer;
+	z-index: 15;
+}
+
+.ship {
+	position: absolute;
+	width:30px;
+	height:30px;
+	cursor: pointer;
+	z-index: 10;
+}
+
+.plane {
+	position: absolute;
+	width:30px;
+	height:30px;
+	cursor: pointer;
+	z-index: 5;
+}
+
+.form{
+	position: relative;
+	top: 100%;
+	padding-top: 20px;
+	text-align: center;
+}
